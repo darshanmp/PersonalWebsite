@@ -1,0 +1,8 @@
+title: Personal Website
+description: Darshan Masti Prakash Personal Website
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-architect
+
+gems:
+  - jekyll-mentions
