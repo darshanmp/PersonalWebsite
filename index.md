@@ -1,15 +1,15 @@
-A Senior Software Engineer with more than 3 years of industry experience in Software Development as a Full Stack Developer. 
+5+ years of software experience. Masters Degree in Computer Engineering from Syracuse University and currently working as a Software Engineer at Deloitte. 
 
-Currently pursuing Masters in Computer Engineering at Syracuse University and as a part-time Software Developer(Co-op) in LAMP framework and Front End web development.
+Versatile work experience spanning multiple areas such as Full stack development, Big Data, Database systems,  Mobile app development, Automated testing
+Good understanding of Data Structures & Algorithms, Object Oriented Design, Operating systems, Database systems
 
-I am currently seeking Full-Time starting from May 2017 in the field of Full-Stack development and Mobile Application development-iOS as I have relevant experience in the area and my Graduate courses reflect that interest.
+Github profile: https://github.com/darshanmp
+
 
 Skills:
-Languages: C, C++, C#, SQL, PHP
+Languages: Python, C, C++, C#, SQL, PHP
 Web Technologies: JQuery, JavaScript, HTML, CSS, ASP.NET/ MVC, Web Services, AJAX, LINQ, Android programming,iOS
 IDE	: Visual Studio 2008/2012, Code Composer Studio, SQL Developer
 Database Technologies	: MS SQL, MySQL, Oracle, NoSQL
 Operating Systems	: Windows, Linux
 Others : SSIS, SSRS, SharePoint, BizTalk, Azure
-
-Github profile : https://github.com/darshanmp
