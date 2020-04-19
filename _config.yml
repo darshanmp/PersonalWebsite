@@ -5,3 +5,5 @@ show_downloads: true
 theme:
 gems: 
   
+
+theme: jekyll-theme-cayman
