@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="/css/blog.css">
+<link rel="stylesheet" href="{{ '/css/blog.css' | prepend: site.baseurl }}">
 
 <article class="blog-post">
   <header class="post-header">
@@ -21,6 +21,6 @@ layout: default
   </div>
 
   <div class="post-footer">
-    <a href="/blog" class="back-link">&larr; Back to Blog</a>
+    <a href="{{ '/blog' | prepend: site.baseurl }}" class="back-link">&larr; Back to Blog</a>
   </div>
 </article>

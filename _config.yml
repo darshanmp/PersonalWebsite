@@ -4,6 +4,10 @@ google_analytics:
 show_downloads: true
 theme: jekyll-theme-architect
 
+# GitHub Pages (free hosting)
+url: "https://darshanmp.github.io"
+baseurl: "/PersonalWebsite"
+
 # Blog settings
 permalink: /blog/:year/:month/:day/:title/
 excerpt_separator: <!--more-->

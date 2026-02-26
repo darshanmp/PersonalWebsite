@@ -3,7 +3,9 @@
 Versatile work experience spanning multiple areas such as Full stack development, Big Data, Database systems,  Mobile app development, Automated testing
 Good understanding of Data Structures & Algorithms, Object Oriented Design, Operating systems, Database systems
 
-Github profile: https://github.com/darshanmp
+Github: https://github.com/darshanmp
+
+Twitter / X: https://x.com/darshanmp30
 
 
 Skills:
