@@ -9,53 +9,37 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="{{ '/css/main.css' | prepend: site.baseurl }}" rel="stylesheet">
-
-  <style>
-    /* Blog-specific layout overrides */
-    .blog-wrapper {
-      padding-top: 96px;
-      padding-bottom: 80px;
-      min-height: 80vh;
-    }
-  </style>
 </head>
 
 <body>
+<div class="page">
 
-  <!-- Nav -->
   <nav class="nav">
-    <div class="nav-inner">
-      <a href="{{ site.baseurl }}/" class="nav-logo">Darshan<span class="accent">.</span></a>
-      <ul class="nav-links">
-        <li><a href="{{ site.baseurl }}/#about">About</a></li>
-        <li><a href="{{ site.baseurl }}/#articles">Writing</a></li>
-        <li><a href="{{ site.baseurl }}/#videos">Videos</a></li>
-        <li><a href="{{ '/blog' | prepend: site.baseurl }}" class="nav-cta">Blog</a></li>
-      </ul>
-    </div>
+    <a href="{{ site.baseurl }}/" class="nav-name">Darshan Masti Prakash</a>
+    <ul class="nav-links">
+      <li><a href="{{ site.baseurl }}/#writing">Writing</a></li>
+      <li><a href="{{ site.baseurl }}/#about">About</a></li>
+      <li><a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a></li>
+    </ul>
   </nav>
 
-  <!-- Content -->
-  <div class="blog-wrapper">
-    <div class="container">
-      {{ content }}
-    </div>
+  <a href="{{ site.baseurl }}/" class="back-link">&larr; Back</a>
+
+  <div class="blog-post">
+    {{ content }}
   </div>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container footer-inner">
-      <span class="nav-logo">Darshan<span class="accent">.</span></span>
-      <div class="footer-links">
-        <a href="{{ site.baseurl }}/#about">About</a>
-        <a href="{{ site.baseurl }}/#articles">Writing</a>
-        <a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a>
-      </div>
-      <p class="footer-copy">&copy; 2026 Darshan Masti Prakash</p>
+  <footer class="footer" style="margin-top: 64px;">
+    <span>Darshan Masti Prakash</span>
+    <div style="display:flex; gap:16px;">
+      <a href="https://github.com/darshanmp" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/darshanmp" target="_blank">LinkedIn</a>
+      <a href="https://x.com/darshanmp30" target="_blank">Twitter</a>
     </div>
   </footer>
 
+</div>
 </body>
 </html>
