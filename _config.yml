@@ -1,7 +1,13 @@
 title: Darshan Masti Prakash
 description: Software Engineer
-google_analytics: 
+google_analytics:
 show_downloads: true
-theme:
-gems: 
-  
+theme: jekyll-theme-architect
+
+# GitHub Pages (free hosting)
+url: "https://darshanmp.github.io"
+baseurl: "/PersonalWebsite"
+
+# Blog settings
+permalink: /blog/:year/:month/:day/:title/
+excerpt_separator: <!--more-->
