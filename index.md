@@ -1,9 +1,11 @@
-5+ years of software experience. Masters Degree in Computer Engineering from Syracuse University and currently working as a Software Engineer at Deloitte. 
+Senior Software Engineer at Microsoft (June 2020 – Present). Masters Degree in Computer Engineering from Syracuse University.
 
 Versatile work experience spanning multiple areas such as Full stack development, Big Data, Database systems,  Mobile app development, Automated testing
 Good understanding of Data Structures & Algorithms, Object Oriented Design, Operating systems, Database systems
 
-Github profile: https://github.com/darshanmp
+Github: https://github.com/darshanmp
+
+Twitter / X: https://x.com/darshanmp30
 
 
 Skills:
