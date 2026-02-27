@@ -2,12 +2,14 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --text:    #1a1a1a;
-  --muted:   #6b6b6b;
-  --faint:   #999;
-  --border:  #e0e0e0;
-  --link:    #2563eb;
-  --bg:      #ffffff;
+  --text:    #111827;
+  --muted:   #64748b;
+  --faint:   #94a3b8;
+  --border:  #e2ddd8;
+  --link:    #1d4ed8;
+  --bg:      #faf9f7;
+  --bg-alt:  #f2f0ec;
+  --accent:  #1e293b;
   --max-w:   680px;
 }
 
@@ -20,6 +22,7 @@ body {
   color: var(--text);
   background: var(--bg);
   -webkit-font-smoothing: antialiased;
+  border-top: 3px solid var(--accent);
 }
 
 a {
@@ -81,7 +84,8 @@ img { max-width: 100%; display: block; }
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
-  border: 1px solid var(--border);
+  border: 1.5px solid var(--border);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
 }
 
 .intro-meta { padding-top: 4px; }
@@ -136,7 +140,7 @@ img { max-width: 100%; display: block; }
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--faint);
+  color: var(--muted);
   margin-bottom: 20px;
 }
 
@@ -151,7 +155,7 @@ img { max-width: 100%; display: block; }
   align-items: baseline;
   gap: 16px;
   padding: 10px 0;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid var(--bg-alt);
 }
 .post-item:last-child { border-bottom: none; }
 
@@ -200,7 +204,7 @@ img { max-width: 100%; display: block; }
   grid-template-columns: 140px 1fr;
   gap: 12px;
   padding: 10px 0;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid var(--bg-alt);
   font-size: 0.9rem;
 }
 .exp-item:last-child { border-bottom: none; }
