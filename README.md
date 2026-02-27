@@ -1,1 +1,1 @@
-# Personal Website of Darshan Masti Prakash
+# Personal Website
